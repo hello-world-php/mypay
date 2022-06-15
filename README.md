@@ -16,3 +16,8 @@
 8. Установить им баланс: `docker-compose exec php php artisan balance user1 500`, `docker-compose exec php php artisan balance user2 400`
 9. Провести транзакцию: `docker-compose exec php php artisan make_transaction user1 user2 20 описание`, 
 	общий формат команды: `docker-compose exec php php artisan make_transaction [from_user_login] [to_user_login] [amount] [description]`
+	
+	
+## Как зайти
+После завершения развертывания проект доступен на `http://localhost:8080`
+Логин для входа `user1@test-laravel.org`, пароль `secret`
